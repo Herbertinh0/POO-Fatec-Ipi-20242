@@ -1,0 +1,19 @@
+2 
+A base de dados foi preparada removendo a coluna com dados nulos ("Unamed 0"). Além disso, como a base não possui dados categóricos (tipo "object"), não foi necessário convertê-los.
+
+
+3
+Este é um problema de classificação. A variável alvo smoker é binária (0 = Não fumante, 1 = Fumante), e o objetivo é prever a classe a que um indivíduo pertence com base nas características disponíveis no conjunto de dados. Em problemas de classificação, o foco é prever categorias discretas, enquanto em problemas de regressão, o foco é prever valores contínuos.
+
+
+5 
+A base está balanceada? Comente.
+Sim, a base está balanceada, após a avaliarmos por meio do gráfico a distribuição da variável smoker, que é a variável para análise entendemos que a mesma está bem balanceada, com pouca discrepância, entre a quantidade de fumantes e não fumantes.
+
+
+
+6
+Acurácia: A porcentagem de vezes que o modelo acertou a previsão. 
+Precisão: A porcentagem de vezes que o modelo previu corretamente um resultado positivo. 
+Recall: A porcentagem de vezes que o modelo identificou corretamente todos os casos positivos.
+F1-Score: Uma medida que combina precisão e recall. Matriz de Confusão: Uma tabela que mostra as diferentes combinações de previsões corretas e incorretas.
